@@ -151,7 +151,7 @@
 	brightness = 8
 	nightshift_allowed = FALSE
 	fueluse = 60 MINUTES
-	bulb_colour = "#f9ad80"
+	bulb_colour = "#ffffff"//"#f9ad80"
 	bulb_power = 1
 	flags_1 = NODECONSTRUCT_1
 	use_power = NO_POWER_USE

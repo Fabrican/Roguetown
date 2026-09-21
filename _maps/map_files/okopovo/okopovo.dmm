@@ -1,4 +1,47 @@
 "a" = (/turf/closed,/area/rogue)
+"b" = (/turf/closed/wall/mineral/rogue/stone/rustwall_r,/area/rogue/indoors/town/vault)
+"c" = (/turf/closed/wall/mineral/rogue/stone/rustwall{icon_state = "rust_w1"; dir = 4},/area/rogue/indoors/town/vault)
+"d" = (/turf/closed/wall/mineral/rogue/stone/rustwall_r{icon_state = "rust_w2"; dir = 1},/area/rogue/indoors/town/vault)
+"e" = (/turf/closed/wall/mineral/rogue/stone/rustwall{icon_state = "rust_w1"; dir = 1},/area/rogue/indoors/town/vault)
+"f" = (/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/town/vault)
+"g" = (/turf/closed/wall/mineral/rogue/craftstone,/area/rogue/indoors/town/vault)
+"h" = (/obj/machinery/light/rogue/wallfire/candle,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"i" = (/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"j" = (/obj/machinery/light/rogue/wallfire/candle/l,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/town/vault)
+"k" = (/obj/machinery/light/rogue/wallfire/candle/r,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/town/vault)
+"l" = (/turf/closed/wall/mineral/rogue/stonebrick,/area/rogue/indoors/town/vault)
+"m" = (/turf/open/floor/rogue/carpet,/area/rogue/indoors/town/vault)
+"n" = (/obj/machinery/light/rogue/wallfire/candle,/turf/open/floor/rogue/carpet,/area/rogue/indoors/town/vault)
+"o" = (/obj/machinery/light/rogue/wallfire/candle/r,/turf/open/floor/rogue/carpet,/area/rogue/indoors/town/vault)
+"p" = (/obj/machinery/light/rogue/wallfire/candle{dir = 1; pixel_y = 12},/turf/closed/wall/mineral/rogue/stonebrick,/area/rogue/indoors/town/vault)
+"q" = (/turf/closed/wall/mineral/rogue/stone/rustwall_r{icon_state = "rust_w2"; dir = 4},/area/rogue/indoors/town/vault)
+"r" = (/turf/closed/wall/mineral/rogue/stone/rustwall_r{icon_state = "rust_w2"; dir = 8},/area/rogue/indoors/town/vault)
+"s" = (/obj/machinery/light/rogue/torchholder{icon_state = "torchwall1"; dir = 1},/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"t" = (/obj/structure/table/wood/fancy,/turf/open/floor/rogue/carpet,/area/rogue/indoors/town/vault)
+"u" = (/obj/machinery/light/rogue/torchholder{icon_state = "torchwall1"; dir = 1},/turf/open/floor/rogue/carpet,/area/rogue/indoors/town/vault)
+"v" = (/obj/structure/chair/bench,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/town/vault)
+"w" = (/obj/machinery/light/rogue/wallfire/candle,/obj/item/chair/rogue,/turf/open/floor/rogue/carpet,/area/rogue/indoors/town/vault)
+"x" = (/obj/item/chair/rogue/fancy,/turf/open/floor/rogue/carpet,/area/rogue/indoors/town/vault)
+"y" = (/obj/effect/landmark/start,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/town/vault)
+"z" = (/obj/effect/landmark/latejoin,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/town/vault)
+"A" = (/obj/item/chair/rogue,/turf/open/floor/rogue/carpet,/area/rogue/indoors/town/vault)
+"B" = (/obj/machinery/light/rogue/torchholder{icon_state = "torchwall1"; dir = 1},/obj/item/chair/rogue,/turf/open/floor/rogue/carpet,/area/rogue/indoors/town/vault)
+"C" = (/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/clothing/head/roguetown/helmet/leather,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/town/vault)
+"D" = (/obj/machinery/light/rogue/wallfire/candle,/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/clothing/head/roguetown/helmet/heavy/pigface,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"E" = (/obj/item/rogueweapon/flail,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"F" = (/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/clothing/head/roguetown/helmet/heavy/sheriff,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"G" = (/obj/machinery/light/rogue/wallfire/candle,/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/clothing/head/roguetown/helmet/winged,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"H" = (/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/rogueweapon/spear,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"I" = (/obj/item/rogueweapon/sword/long/rider,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"J" = (/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/clothing/head/roguetown/armingcap,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/town/vault)
+"K" = (/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/clothing/head/roguetown/fancyhat,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"L" = (/obj/item/rogueweapon/sword/iron,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"M" = (/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/clothing/head/roguetown/helmet/horned,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"N" = (/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/clothing/head/roguetown/helmet/sallet/visored,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"O" = (/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/clothing/head/roguetown/helmet/skullcap,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"P" = (/obj/item/rogueweapon/sword/iron/messer,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"Q" = (/obj/structure/chair/bench{icon_state = "bench"; dir = 1},/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/town/vault)
+"R" = (/obj/machinery/light/rogue/wallfire/candle,/obj/item/rogueweapon/mace/stunmace,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaa
@@ -39,26 +82,26 @@ aaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaa
+aaaabccdaaaaaaaaaaaa
+aaaaefvggggggggggaaa
+aaaaefffhiihiihigaaa
+aaaaejfffffffffkgaaa
+aaaaefffffffffffgaaa
+aaaaeffffffffffkgaaa
+aaaaefffsiisiisigaaa
+aaaaejfgllllllllglaa
+aaaaeffmwmmnmmnxmlaa
+aaaaeffmtmtmmtmtolaa
+aaaaejfmmmAmmmmmmlaa
+aaaaeffmmmmmmmmmmlaa
+aaaaeffmtmtmmtmtolaa
+aaaaeffmBmmumxummlaa
+aaaaejfgggggggggglaa
+aaaaeffCDEFGHIRigaaa
+aaaaeffffffffffkgaaa
+aaaaefffffffffyfgaaa
+aaaaejffffffffzkgaaa
+aaaaeffJKLMNOPiigaaa
+aaaaefQgpllpllplgaaa
+aaaaqccraaaaaaaaaaaa
 "}
