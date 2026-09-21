@@ -328,7 +328,7 @@
 	item_state = "torch"
 	lefthand_file = 'icons/mob/inhands/items_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
-	light_color = "#da8c45"
+	light_color = "#ffffff"//"#da8c45"
 	on_damage = 10
 	flags_1 = null
 	possible_item_intents = list(/datum/intent/hit, /datum/intent/use)
