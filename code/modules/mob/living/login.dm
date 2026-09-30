@@ -44,4 +44,4 @@
 	if(!client)
 		return
 	client.screen -= F
-	do_time_change()
+//	do_time_change()

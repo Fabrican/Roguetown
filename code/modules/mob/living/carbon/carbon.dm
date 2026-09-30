@@ -815,8 +815,8 @@
 
 	if(!client)
 		return
-	if(cmode)
-		overlay_fullscreen("CMODE", /atom/movable/screen/fullscreen/crit/cmode)
+//	if(cmode)
+//		overlay_fullscreen("CMODE", /atom/movable/screen/fullscreen/crit/cmode)
 	else
 		clear_fullscreen("CMODE")
 

@@ -25,17 +25,17 @@ GLOBAL_VAR_INIT(dayspassed, FALSE)
 /proc/settod()
 	var/time = station_time()
 	var/oldtod = GLOB.tod
-	if(time >= SSnightshift.nightshift_start_time || time <= SSnightshift.nightshift_dawn_start)
-		GLOB.tod = "night"
+//	if(time >= SSnightshift.nightshift_start_time || time <= SSnightshift.nightshift_dawn_start)
+//		GLOB.tod = "night"
 //		testing("set [tod]")
-	if(time > SSnightshift.nightshift_dawn_start && time <= SSnightshift.nightshift_day_start)
-		GLOB.tod = "dawn"
+//	if(time > SSnightshift.nightshift_dawn_start && time <= SSnightshift.nightshift_day_start)
+//		GLOB.tod = "dawn"
 //		testing("set [tod]")
-	if(time > SSnightshift.nightshift_day_start && time <= SSnightshift.nightshift_dusk_start)
-		GLOB.tod = "day"
+//	if(time > SSnightshift.nightshift_day_start && time <= SSnightshift.nightshift_dusk_start)
+//		GLOB.tod = "day"
 //		testing("set [tod]")
-	if(time > SSnightshift.nightshift_dusk_start && time <= SSnightshift.nightshift_start_time)
-		GLOB.tod = "dusk"
+//	if(time > SSnightshift.nightshift_dusk_start && time <= SSnightshift.nightshift_start_time)
+//		GLOB.tod = "dusk"
 //		testing("set [tod]")
 	if(GLOB.todoverride)
 		GLOB.tod = GLOB.todoverride

@@ -120,7 +120,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	var/skin_tone_wording = "Skin Tone"
 
 	/// Some species have less than standard gender locks
-	var/gender_swapping = FALSE 
+	var/gender_swapping = FALSE
 
 ///////////
 // PROCS //
@@ -2386,11 +2386,11 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 							H.emote("pain")
 				if(damage_amount > ((H.STACON*10) / 3) && !HAS_TRAIT(H, TRAIT_NOPAINSTUN))
 					H.Immobilize(8)
-					shake_camera(H, 2, 2)
+//					shake_camera(H, 2, 2)
 					H.stuttering += 5
 				if(damage_amount > 10 && !HAS_TRAIT(H, TRAIT_NOPAINSTUN))
 					H.Slowdown(clamp(damage_amount/10, 1, 5))
-					shake_camera(H, 1, 1)
+//					shake_camera(H, 1, 1)
 				if(damage_amount < 10)
 					H.flash_fullscreen("redflash1")
 				else if(damage_amount < 20)

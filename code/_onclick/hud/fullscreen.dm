@@ -158,12 +158,12 @@
 	icon_state = "DD"
 	layer = CRIT_LAYER
 	plane = FULLSCREEN_PLANE
-
+/*
 /atom/movable/screen/fullscreen/crit/cmode
 	icon_state = "cmode"
 	layer = 20.09
 	plane = FULLSCREEN_PLANE
-
+*/
 /atom/movable/screen/fullscreen/crit/vision
 	icon_state = "oxydamageoverlay"
 	layer = BLIND_LAYER
@@ -263,7 +263,7 @@
 	blend_mode = BLEND_ADD
 	show_when_dead = TRUE
 
-/atom/movable/screen/fullscreen/maniac 
+/atom/movable/screen/fullscreen/maniac
 	icon = 'icons/roguetown/maniac/fullscreen.dmi'
 	icon_state = "hall0"
 	alpha = 0
