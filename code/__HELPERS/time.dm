@@ -25,21 +25,21 @@ GLOBAL_VAR_INIT(dayspassed, FALSE)
 /proc/settod()
 	var/time = station_time()
 	var/oldtod = GLOB.tod
-//	if(time >= SSnightshift.nightshift_start_time || time <= SSnightshift.nightshift_dawn_start)
-//		GLOB.tod = "night"
-//		testing("set [tod]")
-//	if(time > SSnightshift.nightshift_dawn_start && time <= SSnightshift.nightshift_day_start)
-//		GLOB.tod = "dawn"
-//		testing("set [tod]")
-//	if(time > SSnightshift.nightshift_day_start && time <= SSnightshift.nightshift_dusk_start)
-//		GLOB.tod = "day"
-//		testing("set [tod]")
-//	if(time > SSnightshift.nightshift_dusk_start && time <= SSnightshift.nightshift_start_time)
-//		GLOB.tod = "dusk"
-//		testing("set [tod]")
+	if(time >= SSnightshift.nightshift_start_time || time <= SSnightshift.nightshift_dawn_start)
+		GLOB.tod = "night"
+		testing("set [tod]")
+	if(time > SSnightshift.nightshift_dawn_start && time <= SSnightshift.nightshift_day_start)
+		GLOB.tod = "dawn"
+		testing("set [tod]")
+	if(time > SSnightshift.nightshift_day_start && time <= SSnightshift.nightshift_dusk_start)
+		GLOB.tod = "day"
+		testing("set [tod]")
+	if(time > SSnightshift.nightshift_dusk_start && time <= SSnightshift.nightshift_start_time)
+		GLOB.tod = "dusk"
+		testing("set [tod]")
 	if(GLOB.todoverride)
 		GLOB.tod = GLOB.todoverride
-	if((GLOB.tod != oldtod) && !GLOB.todoverride && (GLOB.dayspassed>1)) //weather check on tod changes
+/*	if((GLOB.tod != oldtod) && !GLOB.todoverride && (GLOB.dayspassed>1)) //weather check on tod changes
 		if(!GLOB.forecast)
 			switch(GLOB.tod)
 				if("dawn")
@@ -90,13 +90,13 @@ GLOBAL_VAR_INIT(dayspassed, FALSE)
 		for(var/mob/living/player in GLOB.mob_list)
 			if(player.stat != DEAD && player.client)
 				player.do_time_change()
-
+*/
 	if(GLOB.tod)
 		return GLOB.tod
 	else
 		testing("COULDNT FIND TOD [GLOB.tod] .. [time]")
 		return null
-
+/*
 /mob/living/proc/do_time_change()
 	if(!mind)
 		return
@@ -140,7 +140,7 @@ GLOBAL_VAR_INIT(dayspassed, FALSE)
 	client.screen += D
 	animate(D, alpha = 255, time = 20, easing = EASE_IN)
 	addtimer(CALLBACK(src, PROC_REF(clear_time_icon), D), 30)
-
+*/
 /proc/station_time_debug(force_set)
 	if(isnum(force_set))
 		SSticker.gametime_offset = force_set

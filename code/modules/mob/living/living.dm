@@ -1897,14 +1897,14 @@
 					to_chat(src, span_warning("I can't see anything, the fog has set in."))
 					return
 			to_chat(src, span_warning("There is nothing special to say about this weather."))
-			do_time_change()
+//			do_time_change()
 		return
 	else if(!istransparentturf(ceiling)) //There is no turf we can look through above us
 		to_chat(src, span_warning("A ceiling above my head."))
 		return
 
-	if(T.can_see_sky())
-		do_time_change()
+//	if(T.can_see_sky())
+//		do_time_change()
 
 	var/ttime = 10
 	if(STAPER > 5)
