@@ -42,6 +42,8 @@
 "P" = (/obj/item/rogueweapon/sword/iron/messer,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
 "Q" = (/obj/structure/chair/bench{icon_state = "bench"; dir = 1},/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/town/vault)
 "R" = (/obj/machinery/light/rogue/wallfire/candle,/obj/item/rogueweapon/mace/stunmace,/turf/open/floor/rogue/blocks/stonered,/area/rogue/indoors/town/vault)
+"S" = (/obj/item/gun/ballistic/revolver/grenadelauncher/bow,/obj/item/quiver/arrows,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/town/vault)
+"T" = (/obj/item/gun/ballistic/revolver/grenadelauncher/bow/recurve,/obj/item/quiver/arrows,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/town/vault)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaa
@@ -98,7 +100,7 @@ aaaaeffmtmtmmtmtolaa
 aaaaeffmBmmumxummlaa
 aaaaejfgggggggggglaa
 aaaaeffCDEFGHIRigaaa
-aaaaeffffffffffkgaaa
+aaaaeffSTffffffkgaaa
 aaaaefffffffffyfgaaa
 aaaaejffffffffzkgaaa
 aaaaeffJKLMNOPiigaaa

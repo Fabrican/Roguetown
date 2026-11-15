@@ -24,7 +24,7 @@ GLOBAL_VAR_INIT(dayspassed, FALSE)
 
 /proc/settod()
 	var/time = station_time()
-	var/oldtod = GLOB.tod
+//	var/oldtod = GLOB.tod
 	if(time >= SSnightshift.nightshift_start_time || time <= SSnightshift.nightshift_dawn_start)
 		GLOB.tod = "night"
 		testing("set [tod]")
