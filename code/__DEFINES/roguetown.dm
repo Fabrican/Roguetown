@@ -1,7 +1,7 @@
 //used in various places
-#define ALL_RACES_LIST list("humen", "dwarfm", "elfw", "elfd", "helf", "tiefling", "argonian", "aasimar", "halforc")
+#define ALL_RACES_LIST list("humen", "magyar", "dwarfm", "elfw", "elfd", "helf", "tiefling", "argonian", "aasimar", "halforc")
 
-#define ALL_RACES_LIST_NAMES list("Humen", "Elf", "Dark Elf", "Half-Elf", "Dwarf", "Tiefling", "Argonian", "Aasimar", "Half Orc")
+#define ALL_RACES_LIST_NAMES list("Humen", "Magyar", "Elf", "Dark Elf", "Half-Elf", "Dwarf", "Tiefling", "Argonian", "Aasimar", "Half Orc")
 
 #define ALL_CLERIC_PATRONS list(/datum/patron/divine/astrata, /datum/patron/divine/noc, /datum/patron/divine/dendor, /datum/patron/divine/necra, /datum/patron/divine/pestra)
 
